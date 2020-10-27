@@ -22,6 +22,6 @@ jobs:
          git commit -m 'update flutter framework'
      
       - name: Push changes
-        uses: add -m/github-push-action@master
+        uses: ad-m/github-push-action@refs/heads/master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
